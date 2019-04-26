@@ -1,0 +1,6 @@
+Options All -Indexes
+
+RewriteEngine On
+RewriteRule ^([a-zA-Z0-9/]+)$ index.php?views=$1
+ErrorDocument 404 /SIR/404
+ErrorDocument 403 /SIR/403
